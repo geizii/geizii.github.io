@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #F0F0F0;
+
+    --primary-bg-color: #111217;
+    --secondary-bg-color: #28292E;
+    --border-color: #28292E;
+
+    --title-color: #9A9A9C;
+    --link-color: #9A9A9C;
+    --icon-color: #C7C8C9;
+}
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+}
+
+i {
+    color: var(--icon-color);
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+
+.header__brand .brand__logo {
+    width: 6rem;
+    height: 4rem;
+}
